@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "link": "#",
+    "comment": "스토어",
+    "imgpath": "menu/m5.svg"
+  },
+  {
+    "id": 2,
+    "link": "#",
+    "comment": "STOVE 인디",
+    "imgpath": "menu/m6.svg"
+  },
+  {
+    "id": 3,
+    "link": "#",
+    "comment": "툰스푼",
+    "imgpath": "menu/m7.svg"
+  },
+  {
+    "id": 4,
+    "link": "#",
+    "comment": "세아 스토리",
+    "imgpath": "menu/m8.svg"
+  },
+  {
+    "id": 5,
+    "link": "#",
+    "comment": "P.Pool 피풀",
+    "imgpath": "menu/m9.svg",
+    "icon": "이벤트"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "link": "#",
+    "name": "LOST ARK",
+    "comment": "MMORPG • PC",
+    "bt": "공식홈",
+    "bt2": "커뮤니티",
+    "imgpath": "menu/m20.jpeg",
+    "icon": "../../assets/images/menu/m13.svg"
+  },
+  {
+    "id": 2,
+    "link": "#",
+    "name": "테일즈런너",
+    "comment": "Racing • PC",
+    "bt": "공식홈",
+    "bt2": "커뮤니티",
+    "imgpath": "menu/m21.jpeg",
+    "icon": "menu/m15.svg"
+  },
+  {
+    "id": 3,
+    "link": "#",
+    "name": "블루프로토콜",
+    "comment": "온라인 액션 RPG • PC",
+    "bt": "공식홈",
+    "imgpath": "menu/m22.jpeg"
+  },
+  {
+    "id": 4,
+    "link": "#",
+    "name": "에픽세븐",
+    "comment": "턴제RPG • MOBILE",
+    "bt": "공식홈",
+    "bt2": "커뮤니티",
+    "imgpath": "menu/m23.png",
+    "icon": "menu/m15.svg"
+  },
+  {
+    "id": 5,
+    "link": "#",
+    "name": "아우터플레인",
+    "comment": "3D 턴제 RPG • MOBILE",
+    "bt": "공식홈",
+    "bt2": "커뮤니티",
+    "imgpath": "menu/m24.png",
+    "icon": "menu/m15.svg"
+  }
+]

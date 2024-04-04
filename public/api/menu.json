@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "link": "#",
+    "comment": "스토브 홈",
+    "imgpath": "menu/m1.svg",
+    "color": null
+  },
+  {
+    "id": 2,
+    "link": "#",
+    "comment": "공식 커뮤니티",
+    "imgpath": "menu/m2.svg",
+    "color": null
+  },
+  {
+    "id": 3,
+    "link": "#",
+    "comment": "클라이언트 설치",
+    "imgpath": "menu/m3.svg",
+    "color": "blue"
+  },
+  {
+    "id": 4,
+    "link": "#",
+    "comment": "포인트&플레이크",
+    "imgpath": "menu/m4.svg",
+    "color": "red",
+    "event": "이벤트"
+  }
+]
