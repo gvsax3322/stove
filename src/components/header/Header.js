@@ -25,9 +25,16 @@ const Header = () => {
 
         <ul className="ul-right">
           <li onClick={hanedleClikOpen}>
-            {isOpen && <HeaderModel onClick />}
+            {isOpen && <HeaderModel hanedleClikOpen={hanedleClikOpen} />}
             <a href="#">
-              <img className="svg1" src="../../assets/images/header/h2.svg" />
+              <img
+                className="svg1"
+                src={
+                  isOpen
+                    ? "../../assets/images/header/h5.svg"
+                    : "../../assets/images/header/h2.svg"
+                }
+              />
             </a>
           </li>
           <li>

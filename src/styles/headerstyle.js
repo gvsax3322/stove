@@ -15,6 +15,13 @@ export const HeaderWrap = styled.header`
     height: 100%;
     display: flex;
     justify-content: space-between;
+    .mb-tap {
+      display: none;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
     .logo {
       margin-right: 40px;
     }
@@ -40,6 +47,10 @@ export const HeaderWrap = styled.header`
         a {
           display: flex;
           align-items: center;
+          .svg1 {
+            width: 24px;
+            height: 24px;
+          }
           .svg1:hover {
             background: url("../../assets/images/header/h5.svg") no-repeat
               center;
@@ -67,6 +78,26 @@ export const HeaderWrap = styled.header`
   }
   @media screen and (max-width: 1024px) {
     height: 96px;
+    .wrap {
+      .mb-tap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
+        margin-bottom: 20px;
+        img {
+          width: 24px;
+          height: 24px;
+          cursor: pointer;
+        }
+        strong {
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 30px;
+        }
+      }
+    }
+
     .logo {
       margin: 20px 0;
     }

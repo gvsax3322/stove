@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { HeaderModerWrap } from "../../styles/headerstyle";
 import HeaderList from "./HeaderList";
 
-const HeaderModel = () => {
+const HeaderModel = ({ hanedleClikOpen }) => {
   const [list, setList] = useState([]);
   const [list2, setList2] = useState([]);
   const [list3, setList3] = useState([]);
@@ -68,6 +68,13 @@ const HeaderModel = () => {
     <HeaderModerWrap onClick={handleClickModal} toggle={toggle}>
       <div className="mb-bg">
         <div className="wrap">
+          <div className="mb-tap">
+            <strong>전체보기</strong>
+            <img
+              src="../../assets/images/menu/m17.svg"
+              onClick={hanedleClikOpen}
+            />
+          </div>
           <div className="wrap-left">
             <div className="stove"></div>
             <ul className="ul-left">
