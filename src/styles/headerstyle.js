@@ -8,7 +8,7 @@ export const HeaderWrap = styled.header`
   width: 100%;
   height: 62px;
   z-index: 999;
-
+  width: 100%;
   .wrap {
     max-width: 1300px;
     margin: 0 auto;
@@ -78,7 +78,10 @@ export const HeaderWrap = styled.header`
     padding: 0 40px;
   }
   @media screen and (max-width: 1024px) {
+    position: relative;
+    width: 100%;
     height: 96px;
+    padding: 0 20px;
     .wrap {
       .mb-tap {
         width: 100%;
@@ -110,6 +113,7 @@ export const HeaderWrap = styled.header`
     .ul-right {
       display: flex;
       gap: 15px;
+
       align-items: start !important;
       padding-top: 15px;
       li {
@@ -277,6 +281,7 @@ export const HeaderModerWrap = styled.nav`
 
   @media screen and (max-width: 1024px) {
     background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
     .mb-bg {
       position: fixed;
       width: 100%;
@@ -365,6 +370,7 @@ export const MenuHeader = styled.li`
     border-radius: 5px;
   }
   @media screen and (max-width: 1024px) {
+    width: 100%;
     a {
       padding: 10px;
       padding-left: 25px;

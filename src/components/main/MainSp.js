@@ -21,8 +21,8 @@ const MainSp = () => {
   const changePage = increment => {
     let nextPage = activePage + increment;
     if (nextPage < 0) {
-      nextPage = 3;
-    } else if (nextPage > 3) {
+      nextPage = 4;
+    } else if (nextPage > 4) {
       nextPage = 0;
     }
     setActivePage(nextPage);
@@ -75,10 +75,8 @@ const MainSp = () => {
 
   const handleSlideChange = swiper => {
     console.log(swiper.activeIndex);
-    if (swiper.activeIndex === 3) {
-      setTimeout(() => {
-        swiper.slideTo(0);
-      }, 4000);
+    if (swiper.activeIndex === 4) {
+      swiper.slideTo(0);
     }
     setActivePage(swiper.activeIndex);
   };
@@ -161,6 +159,19 @@ const MainSp = () => {
               <a href="#">자세히 보기 &gt;</a>
             </button>
           </SwiperSlide>
+          <SwiperSlide>
+            {/* <h2 style={{ color: "#4e1c60" }}>
+              두근두근 야심작 #15 시스터즈 커리큘럼
+            </h2>
+            <h3>
+              흙수저 대학생의 상위 1% 자매 과외기
+              <br />
+              ~15%할인 & 최대 3가지 선물 증정!
+            </h3>
+            <button style={{ background: "#4e1c60" }}>
+              <a href="#">자세히 보기 &gt;</a>
+            </button> */}
+          </SwiperSlide>
           <div className="bts">
             <button onClick={() => changePage(-1)}>
               <img src="../../assets/images/sp/s7.svg" />
@@ -229,6 +240,11 @@ const MainSp = () => {
               <img src="../../assets/images/sp/s3.jpeg" />
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            {/* <div className="sp-img">
+              <img src="../../assets/images/sp/s3.jpeg" />
+            </div> */}
+          </SwiperSlide>
         </Swiper>
         <Swiper
           ref={swiper2Ref}
@@ -274,6 +290,11 @@ const MainSp = () => {
             <div className="sp-img">
               <img src="../../assets/images/sp/s4.png" />
             </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            {/* <div className="sp-img">
+              <img src="../../assets/images/sp/s4.png" />
+            </div> */}
           </SwiperSlide>
           <div className="pagination">
             <button
@@ -340,6 +361,11 @@ const MainSp = () => {
             <div className="sp-img">
               <img src="../../assets/images/sp/s1.jpeg" />
             </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            {/* <div className="sp-img">
+              <img src="../../assets/images/sp/s1.jpeg" />
+            </div> */}
           </SwiperSlide>
         </Swiper>
       </div>
