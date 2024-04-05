@@ -39,6 +39,7 @@ export const HeaderWrap = styled.header`
         line-height: 20px;
       }
     }
+
     .ul-right {
       display: flex;
       gap: 15px;
