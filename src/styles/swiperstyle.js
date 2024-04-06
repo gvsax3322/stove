@@ -345,10 +345,14 @@ export const MainSp2style = styled.div`
   height: 100%;
   justify-content: space-between;
   padding-top: 30px;
-
+  gap: 20px;
+  .mySwipe5 {
+    width: 100%;
+    height: 100%;
+  }
   .item {
     display: flex;
-    width: 32%;
+    width: 100%;
     height: 92px;
     background: #fff;
     border-radius: 20px;
@@ -373,5 +377,42 @@ export const MainSp2style = styled.div`
         line-height: 26px;
       }
     }
+  }
+
+  @media screen and (max-width: 1440px) {
+    width: 100%;
+    .mySwipe5 {
+      height: 72px;
+    }
+    .item {
+      height: 72px !important;
+    }
+    .item-left {
+      img {
+        width: 90px !important;
+        height: 72px !important;
+      }
+    }
+    .item-right {
+      padding: 15px 0 !important;
+      h3 {
+        font-size: 1.2rem !important;
+        font-weight: 200;
+        line-height: 15px !important;
+        color: #1f1f1f;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 1.4rem !important;
+        font-weight: 500;
+        line-height: 20px !important;
+      }
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    padding-top: 90px !important;
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 0 !important;
   }
 `;
