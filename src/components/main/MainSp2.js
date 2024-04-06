@@ -19,7 +19,6 @@ const MainSp2 = () => {
       .then(res => res.json())
       .then(data => {
         setList(data);
-        console.log(data);
       })
       .catch(err => {
         console.log(err);
