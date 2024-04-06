@@ -74,7 +74,6 @@ const MainSp = () => {
   };
 
   const handleSlideChange = swiper => {
-    console.log(swiper.activeIndex);
     if (swiper.activeIndex === 4) {
       swiper.slideTo(0);
     }

@@ -338,3 +338,40 @@ export const Swiperwrap = styled.section`
     }
   }
 `;
+
+export const MainSp2style = styled.div`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 30px;
+
+  .item {
+    display: flex;
+    width: 32%;
+    height: 92px;
+    background: #fff;
+    border-radius: 20px;
+    gap: 10px;
+    .item-left {
+      img {
+        width: 110px;
+        height: 92px;
+      }
+    }
+    .item-right {
+      padding: 25px 0;
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 24px;
+        color: #1f1f1f;
+      }
+      p {
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 26px;
+      }
+    }
+  }
+`;
