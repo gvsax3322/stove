@@ -196,7 +196,9 @@ export const MainRecommendSt = styled.section`
         padding: 0 !important;
         font-size: 1rem !important;
         text-align: center;
-
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         height: 30px;
         color: #999;
         background: transparent;
