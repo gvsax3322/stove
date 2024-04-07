@@ -149,6 +149,16 @@ export const MainRecommendSt = styled.section`
     }
   }
   @media screen and (max-width: 767px) {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 40px;
+      margin-left: 30px !important;
+    }
+    .card {
+      padding: 0 20px;
+      justify-content: center;
+    }
     h3 {
       white-space: nowrap;
       overflow: hidden;
@@ -191,6 +201,346 @@ export const MainRecommendSt = styled.section`
         color: #999;
         background: transparent;
         cursor: pointer;
+      }
+    }
+  }
+`;
+
+export const MainReviewst = styled.section`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  .r-bg {
+    background: url("../../assets/images/rv/z2.png") no-repeat center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    height: 365px;
+    .warp {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding-top: 36px;
+      display: flex;
+      justify-content: space-between;
+      .r-left {
+        margin-top: 11px;
+        .bts {
+          padding-top: 48px;
+          button {
+            width: 122px;
+            height: 44px;
+            border: none;
+            background-color: transparent;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            border-radius: 10px;
+          }
+          .bt-1 {
+            background: #fff;
+            color: #000;
+            margin-right: 5px;
+          }
+          .bt-2 {
+            background: hsla(0, 0%, 100%, 0.2);
+          }
+        }
+      }
+      .r-right {
+        width: 660px;
+        display: flex;
+        gap: 20px;
+        .r-right-wrap {
+          position: relative;
+          width: 200px;
+          height: 293px;
+          background: #fff;
+          padding: 30px 20px;
+          border-radius: 20px;
+
+          .top {
+            height: 80%;
+            width: 100%;
+            overflow: hidden;
+            p {
+              height: 80%;
+              font-size: 1.5rem;
+              line-height: 24px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+          .botton {
+            height: 20%;
+            display: flex;
+            gap: 10px;
+            .botton-img {
+              img {
+                width: 40px;
+                border-radius: 20px;
+              }
+            }
+            .botton-text {
+              h4 {
+                font-size: 1.4rem;
+                line-height: 20px;
+                font-weight: 400;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+              p {
+                font-size: 1.2rem;
+                line-height: 18px;
+                color: #999;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .r-right {
+      width: 660px;
+      display: flex;
+      gap: 10px;
+      .r-right-wrap {
+        position: relative;
+        width: 170px !important;
+        height: 293px;
+        background: #fff;
+        padding: 30px 20px;
+        border-radius: 20px;
+
+        .top {
+          height: 80%;
+          width: 100%;
+          overflow: hidden;
+          p {
+            height: 80%;
+            font-size: 1.5rem;
+            line-height: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        .botton {
+          height: 20%;
+          display: flex;
+          gap: 10px;
+          .botton-img {
+            img {
+              width: 40px;
+              border-radius: 20px;
+            }
+          }
+          .botton-text {
+            overflow: hidden;
+            h4 {
+              font-size: 1.4rem;
+              line-height: 20px;
+              font-weight: 400;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            p {
+              font-size: 1.2rem;
+              line-height: 18px;
+              color: #999;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .bts {
+      margin-bottom: 20px;
+      button {
+        width: 100px !important;
+        height: 30px !important;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        font-size: 1.3rem !important;
+        font-weight: 300 !important;
+        line-height: 15px;
+        border-radius: 10px;
+      }
+    }
+    .r-bg {
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .warp {
+      flex-direction: column;
+      padding: 40px;
+      .r-right {
+        position: relative;
+        width: 100% !important;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        overflow: hidden;
+        a {
+          width: 33% !important;
+          .r-right-wrap {
+            position: relative;
+            width: 100% !important;
+            height: 250px !important;
+            background: #fff;
+
+            .top {
+              height: 80%;
+              width: 100%;
+              overflow: hidden;
+              p {
+                height: 80%;
+                font-size: 1.5rem;
+                line-height: 24px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+            .botton {
+              height: 20%;
+              display: flex;
+              gap: 10px;
+              .botton-img {
+                img {
+                  width: 40px;
+                  border-radius: 20px;
+                }
+              }
+              .botton-text {
+                overflow: hidden;
+                h4 {
+                  font-size: 1.4rem;
+                  line-height: 20px;
+                  font-weight: 400;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+                p {
+                  font-size: 1.2rem;
+                  line-height: 18px;
+                  color: #999;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .botton-text {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 40px;
+      margin-left: 30px !important;
+    }
+    .swiper-pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      height: 20px;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .swiper-pagination-bullet {
+      width: 6px;
+      height: 6px;
+      background-color: #fff;
+      transition: width 1s, opacity 1s;
+      border-radius: 5px;
+      opacity: 0.4;
+    }
+    .swiper-pagination-bullet-active {
+      width: 40px;
+      opacity: 1;
+    }
+    .mySwipe {
+      position: relative;
+      width: 100% !important;
+      .r-right {
+        a {
+          width: 100% !important;
+          .r-right-wrap {
+            position: relative;
+            width: 100% !important;
+            height: 250px !important;
+            background: #fff;
+            .top {
+              height: 80%;
+              width: 100%;
+              overflow: hidden;
+              p {
+                height: 80%;
+                font-size: 1.5rem;
+                line-height: 24px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+            .botton {
+              height: 20%;
+              display: flex;
+              gap: 10px;
+              .botton-img {
+                img {
+                  width: 40px;
+                  border-radius: 20px;
+                }
+              }
+              .botton-text {
+                overflow: hidden;
+                h4 {
+                  font-size: 1.4rem;
+                  line-height: 20px;
+                  font-weight: 400;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+                p {
+                  font-size: 1.2rem;
+                  line-height: 18px;
+                  color: #999;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

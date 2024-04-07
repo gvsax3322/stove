@@ -5,6 +5,7 @@ const MainRecommend = () => {
   const [cardHovered, setCardHovered] = useState({});
   const [list, setList] = useState([]);
   const [activeIndex, setActiveIndex] = useState("1");
+  const [activeNum, serActiveNum] = useState("1");
 
   const handleClikLi = _num => {
     getList(_num);
@@ -42,6 +43,25 @@ const MainRecommend = () => {
   useEffect(() => {
     getList(1);
   }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      serActiveNum(prevNum => {
+        const nextNum = parseInt(prevNum) + 1;
+        if (nextNum > 4) {
+          return "1";
+        } else {
+          return nextNum.toString();
+        }
+      });
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    handleClikLi(activeNum);
+  }, [activeNum]);
 
   return (
     <MainRecommendSt>

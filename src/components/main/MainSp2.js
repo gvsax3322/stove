@@ -3,7 +3,6 @@ import { MainSp2style } from "../../styles/swiperstyle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-creative";
-import { FreeMode } from "swiper/modules";
 
 const MainSp2 = () => {
   const [list, setList] = useState([]);
