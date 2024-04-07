@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "link": "#",
+    "name": "LOST ARK",
+    "tag": "PC • MMORPG ",
+    "imgpath": "b/g13.png"
+  },
+  {
+    "id": 2,
+    "link": "#",
+    "name": "테일즈런너",
+    "tag": "PC • Racing",
+    "imgpath": "b/g14.png"
+  },
+  {
+    "id": 3,
+    "link": "#",
+    "name": "블루프로토콜",
+    "tag": "PC • 온라인 액션 RPG",
+    "imgpath": "b/g15.jpeg"
+  }
+]

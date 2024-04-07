@@ -20,7 +20,6 @@ const MainReview = () => {
       })
       .then(data => {
         setList(data);
-        console.log(data);
       })
       .catch(err => {
         console.log(err);
