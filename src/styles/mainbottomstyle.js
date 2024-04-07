@@ -121,7 +121,7 @@ export const MainBottomst = styled.section`
         width: 100%;
 
         img {
-          border-radius: 35px;
+          border-radius: 15px;
           width: 100%;
           height: 125px;
         }
@@ -134,7 +134,7 @@ export const MainBottomst = styled.section`
         position: relative;
         width: 100%;
         img {
-          border-radius: 35px;
+          border-radius: 15px;
           width: 100%;
           height: 125px;
         }
@@ -282,6 +282,7 @@ export const MainBottomst = styled.section`
     }
   }
   @media screen and (max-width: 767px) {
+    padding: 0 20px !important;
     .item-2 {
       position: relative;
       width: 100%;
