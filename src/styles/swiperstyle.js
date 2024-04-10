@@ -182,9 +182,11 @@ export const Swiperwrap = styled.section`
     position: relative;
     align-items: center;
     flex-direction: column-reverse;
-    width: 1024px;
+    overflow: hidden;
+    width: 100%;
     .sp-right {
       width: 1024px !important;
+      overflow: hidden;
     }
     .mySwipe1 {
       width: 404px !important;
@@ -196,7 +198,6 @@ export const Swiperwrap = styled.section`
     .mySwiper2 {
       width: 576px !important;
       height: 340px !important;
-
       right: 50% !important;
     }
     .mySwiper3 {
